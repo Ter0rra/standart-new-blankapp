@@ -1,19 +1,15 @@
-# 🎈 Blank app template
+# Exam Score Predictor
 
-A simple Streamlit app template for you to modify!
+This application predicts the exam score of a student based on various factors such as age, study hours, social media usage, etc.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Features:
+- Input data such as age, study hours, social media usage, etc.
+- Predict exam score using machine learning models.
+- Display grade based on the predicted score.
+- Visualization of the predicted score with color coding (Green: A, Red: F).
 
-### How to run it on your own machine
+## Requirements:
+To run this application, you need to install the required dependencies:
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+```bash
+pip install -r requirements.txt
